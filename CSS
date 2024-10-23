@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50 px;
+    width: 140px;
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    background-image: url("https://wallpapers.com/images/hd/amazon-logo-black-background-xb9pdemosnjfz9ej.jpg");
+    background-size: cover;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+.add1 {
+    color: #cccccc;
+    font-size: 1rem;
+    margin-left: 15px;
+
+}
+
+.add2 {
+    font-size: 1rem;
+    margin-left: 3px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 3px;
+
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: rgb(241, 149, 1);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+span {
+    font-size: 0.7rem;
+
+}
+
+.nav-returns,
+.nav-signin,
+.nav-second {
+    display: inline;
+}
+
+.nav-second {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+/* body{
+    background-image: url("amazon.jpg");
+    background-size: cover;} */
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.panel-ops p {
+    display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-size: 0.85rem;
+}
+
+.panel-deals {
+    font-size: 0.9rem;
+
+}
+
+.hero-section {
+    background-image: url("/web_dev/images/amazon-india.jpg");
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    animation: changeimage 10s linear infinite;
+}
+
+@keyframes changeimage {
+    0% {
+        background-image: url("/web_dev/images/amazon-india.jpg");
+    }
+    25% {
+        background-image: url("/web_dev/images/amazon-india1.jpg");
+    }
+    50% {
+        background-image: url("/web_dev/images/amazon-india2.jpg");
+    }
+    75% {
+        background-image: url("/web_dev/images/amazon-india3.jpg");
+    }
+    100% {
+        background-image: url("/web_dev/images/amazon-india4.jpg");
+    }
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    bottom: 25px;
+    position: relative;
+    width: 80%;
+
+}
+
+.hero-msg a {
+    color: blue;
+}
+
+.box {
+    height: 350px;
+    border: 2px solid black;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.shop-section {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+    flex-wrap: wrap
+}
+
+.box-image {
+    height: 250px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content p {
+    color: #007185;
+}
+
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20 px;
+}
+
+ul a {
+    display: block;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lang{
+    width: 100px;
+    background-color:#222f3d;
+    border-radius: 4px;
+}
+.lang hover{
+    color: #3fadad;
+    background-color: aqua;
+}
+.fa-solid, .fa-globe{
+display: inline-block;
+}
+.logo1 {
+    height: 50px;
+    background-image: url("https://wallpapers.com/images/hd/amazon-logo-black-background-xb9pdemosnjfz9ej.jpg");
+    background-size: cover;
+    width: 150px;
+
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    height: 80px;
+    font-size: 0.8rem;
+    text-align: center;
+    /* display: flex;
+     justify-content: center;
+     align-items: center; */
+}
+
+.pages {
+    padding-top: 25px;
+}
+
+.copyright {
+    padding-top: 5px;
+}
